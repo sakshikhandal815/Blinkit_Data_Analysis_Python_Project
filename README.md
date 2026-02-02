@@ -1,93 +1,128 @@
 # Blinkit_Data_Analysis
-
-Blinkit Sales Analysis Project
 📌 Project Overview
 
-This project focuses on analyzing Blinkit grocery delivery sales data to extract meaningful business insights. The goal is to understand sales performance, customer behavior, and product trends using Excel-based data analysis techniques commonly required for Data Analyst roles.
+This project focuses on exploratory data analysis (EDA) of Blinkit grocery sales data to uncover meaningful business insights. Using Python, the analysis explores sales performance, customer preferences, outlet characteristics, and product trends to support data-driven decision making.
 
-The analysis converts raw transactional data into actionable insights that can help improve sales strategy, inventory planning, and customer retention.
+The project demonstrates real-world data analyst skills, including data cleaning, KPI calculation, and visualization.
 
 🎯 Objectives
 
-Analyze overall sales and revenue performance
+Understand Blinkit’s sales and outlet data structure
 
-Identify top-selling products and categories
+Clean and preprocess raw data
 
-Understand customer purchase behavior
+Analyze sales trends across products and outlets
 
-Compare outlet-wise / city-wise performance
+Identify high-performing categories and locations
 
-Improve decision-making using data-driven insights
+Visualize key business metrics using charts
 
-🧰 Tools & Technologies Used
+📂 Dataset Information
 
-Microsoft Excel
+Rows: 8,523
 
-Data Cleaning & Transformation
+Columns: 12
 
-Pivot Tables
+Key Features:
 
-Charts & Dashboards
+Item Type
 
-Excel Functions & Formulas
+Item Fat Content
 
-📊 Key Analysis Performed
+Sales
 
-Total Sales, Revenue, and Order Count analysis
+Outlet Size
 
-Average Order Value (AOV) calculation
+Outlet Location Type
 
-Top-performing products and categories
+Outlet Establishment Year
 
-Outlet-wise / location-wise sales comparison
+Ratings
 
-Customer repeat vs new order analysis
+Dataset and structure are taken directly from the project analysis file 
 
-Monthly and daily sales trend analysis
+Blinkit Analysis Project in Pyt…
 
-🧹 Data Cleaning Steps
+🧹 Data Cleaning & Preparation
 
-Removed duplicate records
+Standardized inconsistent values in Item Fat Content
 
-Handled missing and null values
+Converted LF, low fat → Low Fat
 
-Standardized date and numerical formats
+Converted reg → Regular
 
-Corrected inconsistent product and category names
+Handled missing values in Item Weight
 
-📈 Insights & Findings
+Verified data types and dataset size
 
-A small number of categories contribute to the majority of revenue
+Ensured consistency for accurate analysis
 
-Certain outlets/cities consistently outperform others
+📊 Key KPIs
 
-Repeat customers generate higher average order value
+Total Sales: $1,201,681
 
-Sales show clear peaks during specific days and time periods
+Average Sales per Item: $141
 
-📂 Project Structure
-📁 Blinkit-Sales-Analysis
-│── 📄 Blinkit_Sales_Data.xlsx
-│── 📄 Blinkit_Analysis_Report.xlsx
-│── 📄 README.md
+Number of Items Sold: 8,523
 
-🚀 Business Impact
+Average Customer Rating: 4.0
 
-Helps identify high-revenue products for better inventory planning
+📈 Exploratory Data Analysis (EDA)
+🔹 Sales Analysis
 
-Supports marketing strategy using customer behavior insights
+Sales distribution by Item Fat Content
 
-Enables performance comparison across locations
+Total sales by Item Type
 
-Demonstrates real-world analytical thinking and problem-solving skills
+Sales contribution by Outlet Size
 
-🔮 Future Enhancements
+Sales trends by Outlet Establishment Year
 
-Perform the same analysis using SQL
+🔹 Outlet Performance
 
-Build an interactive Power BI / Tableau dashboard
+Sales by Outlet Location Type (Tier 1, Tier 2, Tier 3)
 
-Add customer segmentation analysis
+Comparison of Low Fat vs Regular items across outlet tiers
 
-Automate reporting
+Impact of outlet size (Small, Medium, High) on total sales
+
+🔹 Visualization Tools Used
+
+Pie Charts
+
+Bar Charts
+
+Line Charts
+
+Horizontal Bar Charts
+
+🛠️ Tools & Technologies
+
+Python
+
+Pandas – data manipulation
+
+NumPy – numerical operations
+
+Matplotlib – data visualization
+
+Seaborn – advanced visualizations
+
+📌 Key Insights
+
+Low Fat products contribute the highest share of total sales
+
+Tier 3 outlets generate more revenue compared to Tier 1 & Tier 2
+
+Fruits & Vegetables and Snack Foods are top-selling categories
+
+Medium-sized outlets dominate overall sales contribution
+
+Older outlets show stable and consistent sales performance
+
+🚀 Conclusion
+
+This project highlights how EDA can transform raw data into actionable business insights. It reflects practical data analysis skills required for Data Analyst / Business Analyst roles, including data cleaning, KPI tracking, and visualization.
+
+
 
